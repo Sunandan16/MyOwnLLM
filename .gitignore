@@ -6,5 +6,21 @@ dist/
 wheels/
 *.egg-info
 
-# Virtual environments
-.venv
+# Virtual environment
+venv/
+.venv/
+env/
+
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Optional: other Python-generated files
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
